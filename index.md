@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Primera incursión en GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Ardicia/ardicia.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
