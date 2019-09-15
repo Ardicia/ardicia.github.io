@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- A revisar en ejemplos de los apuntes de Boostrap, al igual que el author -->
+    <meta name="author" content="Eva Ullán">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Examen TW Febrero 2019</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+
+  <!-- Hacer uso de section, de figure, de caption, etc. Incluso también de header y footer -->
+
+  <body>
+
+    <!--Contenedor de toda la página-->
+    <div class="container">
+
+      <!-- Principio de la página -->
+
+      <!--Barra de navegación-->
+      <nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Inicio</a></li>
+          <li><a href="ada.html">Ada o el ardor</a></li>
+          <li><a href="rayuela.html">Rayuela</a></li>
+          <li><a href="crimen.html">Crimen y castigo</a></li>
+        </ul>
+      </nav>
+
+      <div class="jumbotron borde">
+        <h1>Algunos libros memorables</h1>
+        <p>En esta web puedes encontrar información sobre algunos de los libros favoritos de muchos escritores. Es la mejor guía de referencia de Internet, exceptuando todas las páginas serias que ya existían antes.</p>
+      </div>
+
+      <div class="alert alert-warning">
+        <p>
+          <strong>AVISO:</strong> Esta página está en construcción y contiene muchos materiales descargados sin permiso de Internet.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <a href="ada.html">
+          <img src="img/ada-o-el-ardor.jpg" class="img-rounded" alt="Ada o el ardor">
+        </a>
+          <h2>Ada o el ardor</h2>
+          <p><em>Vladimir Nabokov</em></p>
+        </div>
+
+        <div class="col-md-4 mifondo text-center">
+          <a href="rayuela.html">
+           <img src="img/rayuela.jpg" class="img-responsive img-rounded center-block" alt="Rayuela">
+        </a>
+          <h2>Rayuela</h2>
+          <p><em>Julio Cortázar</em></p>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <a href="crimen.html">
+          <img src="img/crimen-y-castigo.jpg" class="img-responsive center-block" 
+          alt="Crimen y castigo">
+          <!-- class="img-rounded" -->
+        </a>
+          <h2>Crimen y castigo</h2>
+          <p><em>Fiódor Dostoyevski</em></p>
+        </div>
+      </div>
+
+      <!-- Usar estilo para el pie de página y emular la separación del salto de línea -->
+      <!--Pie-->
+      <footer>
+        <div class="alert alert-info">&copy; 2019 Examen TW</div>
+      </footer>
+
+      <!-- Fin de la página -->
+
+    </div> <!-- /container -->
+  </body>
+
+</html>
